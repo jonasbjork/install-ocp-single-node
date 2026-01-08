@@ -1,12 +1,26 @@
 
-# OCP cluster
+# SNO - Single Node OpenShift för laborationer
+
+Vi installerar detta på en fysisk maskin där vi kör CentOS 10 som operativsystem, 
+med Cockpit är det enkelt att sätta upp den virtuella maskinen. Du behöver ha ett 
+Red Hat-konto så att du kan logga in på [Hybrid Cloud Console](https://console.redhat.com).
+
+I guiden går vi genom konfiguration av den virtuella servern, uppsättning av IPA 
+server - om du inte redan har tillgång till en LDAP-lösning för authenticering av 
+användarna, installationen av OpenShift och sedan konfigurering av limits, så eleverna 
+inte startar upp alldeles för mycket och sänker maskinen.
+
+Hittar du några fel, eller har förbättringsförslag får du gärna meddela oss eller 
+göra en pull request! 
+
+~ Andres, Martin och Jonas
 
 ## Virtual Machine
 
+Vår virtuella maskin får bra med resurser.
 
-
-| | |
-|--|--|
+|      |          |
+|------|----------|
 | RAM  | 256 GiB  |
 | DISK | 256 GiB  |
 | CPU  | 32 cores |
